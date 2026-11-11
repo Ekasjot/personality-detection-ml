@@ -75,6 +75,29 @@ personality-detection-ml/
 ├── README.md
 └── .gitignore
 ```
+## 📂 Repository Contents
+
+This repository contains the following resources:
+
+### 1. Google Colab Notebook
+Contains the complete machine learning workflow, including:
+- Data exploration and analysis
+- Data preprocessing
+- Feature selection
+- Statistical analysis
+- Model training using Logistic Regression
+- Model evaluation
+- Saving the trained model and preprocessing files
+
+### 2. Project Files
+Contains the files required to run the Streamlit application locally:
+- `app.py` – Interactive Streamlit user interface.
+- `personality_model.pkl` – Trained Logistic Regression model.
+- `scaler.pkl` – Fitted StandardScaler for input preprocessing.
+- `feature_names.pkl` – Stores the model's input feature names and order.
+- `requirements.txt` – Required Python libraries.
+
+The Colab notebook demonstrates the development process, while the project files allow users to run the trained model through the web application.
 
 ## 💻 Installation & Setup
 
